@@ -58,34 +58,4 @@ public class FilmeController {
         return null;
     }
 
-
-    /*@RequestMapping(value = "/getStudent/{name}")
-    @ApiOperation(value = "get student by name", response = Student.class, tags = "getStudentByName")
-    @ApiResponse(code=404,message = "Student not found.")
-    public Student getStudent(@PathVariable(value = "name") String name) {
-        // TODO return student
-        List<Student> studentsBD = this.getStudents();
-        for (Student student : studentsBD) {
-            if(student.name.equals(name)){
-                System.out.println("student found:"+ student);
-                return student;
-            }
-        }
-        return null;
-    }
-
-    @RequestMapping(value = "/findEmployeeDetails/{employeeId}", method = RequestMethod.GET)
-    public Employee getEmployeeDetails(@PathVariable int employeeId) throws Exception {
-        // add
-        ArrayList<Employee> employees = getEmployeesService.getEmployees();
-        System.out.println("Getting Employee details for " + employeeId);
-        for (Employee employee : employees) {
-            if (employee.id == employeeId){
-                return employee;
-            }
-        }
-        // TODO create get method to find employee by id
-        return null;
-    }*/
-
 }
