@@ -1,0 +1,26 @@
+server:
+  port: ${PORT:3002}
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:3001/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+spring:
+  application:
+    name: mymovie-service
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    com.self.sprintboot.learning.employee: DEBUG
