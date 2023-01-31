@@ -6,9 +6,9 @@ public class Filme {
     public String titre;
     public String realisateur;
     public Acteur acteur;
-    public Date date;
+    public String date;
 
-    public Filme(String titre, String realisateur, Acteur acteur, Date date) {
+    public Filme(String titre, String realisateur, Acteur acteur, String date) {
         this.titre = titre;
         this.realisateur = realisateur;
         this.acteur = acteur;
