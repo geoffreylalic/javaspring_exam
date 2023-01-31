@@ -1,0 +1,1033 @@
+2023-01-31 15:29:57.884  INFO 14550 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14550 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:29:57.886  INFO 14550 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:29:57.923  INFO 14550 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16ec5519: startup date [Tue Jan 31 15:29:57 CET 2023]; root of context hierarchy
+2023-01-31 15:29:58.633  INFO 14550 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:29:58.639  INFO 14550 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:29:58.640  INFO 14550 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:29:58.680  INFO 14550 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:29:58.680  INFO 14550 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 758 ms
+2023-01-31 15:29:58.812  INFO 14550 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:29:58.814  INFO 14550 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:29:58.814  INFO 14550 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:29:58.814  INFO 14550 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:29:58.814  INFO 14550 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:29:58.814  INFO 14550 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:29:58.814  INFO 14550 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:29:58.814  INFO 14550 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:29:58.833  WARN 14550 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:29:58.834  INFO 14550 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:29:58.844  INFO 14550 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:29:58.887 ERROR 14550 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:31:00.656  INFO 14606 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14606 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:31:00.657  INFO 14606 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:31:00.689  INFO 14606 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c33b74f: startup date [Tue Jan 31 15:31:00 CET 2023]; root of context hierarchy
+2023-01-31 15:31:01.375  INFO 14606 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:31:01.383  INFO 14606 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:31:01.383  INFO 14606 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:31:01.425  INFO 14606 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:31:01.425  INFO 14606 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 737 ms
+2023-01-31 15:31:01.548  INFO 14606 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:31:01.550  INFO 14606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:31:01.550  INFO 14606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:31:01.550  INFO 14606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:31:01.550  INFO 14606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:31:01.551  INFO 14606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:31:01.551  INFO 14606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:31:01.551  INFO 14606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:31:01.569  WARN 14606 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:31:01.570  INFO 14606 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:31:01.578  INFO 14606 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:31:01.616 ERROR 14606 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:32:07.835  INFO 14662 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14662 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:32:07.837  INFO 14662 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:32:07.874  INFO 14662 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3835c46: startup date [Tue Jan 31 15:32:07 CET 2023]; root of context hierarchy
+2023-01-31 15:32:08.559  INFO 14662 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:32:08.565  INFO 14662 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:32:08.566  INFO 14662 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:32:08.605  INFO 14662 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:32:08.605  INFO 14662 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 733 ms
+2023-01-31 15:32:08.730  INFO 14662 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:32:08.732  INFO 14662 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:32:08.732  INFO 14662 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:32:08.732  INFO 14662 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:32:08.732  INFO 14662 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:32:08.732  INFO 14662 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:32:08.732  INFO 14662 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:32:08.732  INFO 14662 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:32:08.752  WARN 14662 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:32:08.753  INFO 14662 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:32:08.762  INFO 14662 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:32:08.799 ERROR 14662 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:32:51.913  INFO 14710 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14710 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:32:51.915  INFO 14710 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:32:51.952  INFO 14710 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16ec5519: startup date [Tue Jan 31 15:32:51 CET 2023]; root of context hierarchy
+2023-01-31 15:32:52.638  INFO 14710 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:32:52.644  INFO 14710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:32:52.644  INFO 14710 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:32:52.682  INFO 14710 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:32:52.682  INFO 14710 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 732 ms
+2023-01-31 15:32:52.812  INFO 14710 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:32:52.813  INFO 14710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:32:52.814  INFO 14710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:32:52.814  INFO 14710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:32:52.814  INFO 14710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:32:52.814  INFO 14710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:32:52.814  INFO 14710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:32:52.814  INFO 14710 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:32:52.832  WARN 14710 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setObjectPostProcessor' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor<java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:32:52.833  INFO 14710 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:32:52.841  INFO 14710 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:32:52.878 ERROR 14710 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setObjectPostProcessor in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' in your configuration.
+
+2023-01-31 15:33:29.971  INFO 14753 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14753 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:33:29.973  INFO 14753 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:33:30.006  INFO 14753 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16ec5519: startup date [Tue Jan 31 15:33:30 CET 2023]; root of context hierarchy
+2023-01-31 15:33:30.697  INFO 14753 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:33:30.703  INFO 14753 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:33:30.703  INFO 14753 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:33:30.743  INFO 14753 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:33:30.743  INFO 14753 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 738 ms
+2023-01-31 15:33:30.867  INFO 14753 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:33:30.869  INFO 14753 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:33:30.869  INFO 14753 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:33:30.869  INFO 14753 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:33:30.869  INFO 14753 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:33:30.869  INFO 14753 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:33:30.869  INFO 14753 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:33:30.869  INFO 14753 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:33:30.888  WARN 14753 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setObjectPostProcessor' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor<java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:33:30.889  INFO 14753 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:33:30.898  INFO 14753 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:33:30.935 ERROR 14753 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setObjectPostProcessor in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' in your configuration.
+
+2023-01-31 15:33:39.159  INFO 14767 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14767 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:33:39.160  INFO 14767 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:33:39.189  INFO 14767 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16ec5519: startup date [Tue Jan 31 15:33:39 CET 2023]; root of context hierarchy
+2023-01-31 15:33:39.830  INFO 14767 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:33:39.835  INFO 14767 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:33:39.836  INFO 14767 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:33:39.876  INFO 14767 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:33:39.877  INFO 14767 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 690 ms
+2023-01-31 15:33:40.013  INFO 14767 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:33:40.015  INFO 14767 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:33:40.015  INFO 14767 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:33:40.015  INFO 14767 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:33:40.015  INFO 14767 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:33:40.015  INFO 14767 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:33:40.015  INFO 14767 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:33:40.016  INFO 14767 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:33:40.090  WARN 14767 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:33:40.091  INFO 14767 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:33:40.101  INFO 14767 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:33:40.137 ERROR 14767 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:34:17.152  INFO 14789 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14789 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:34:17.154  INFO 14789 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:34:17.186  INFO 14789 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16ec5519: startup date [Tue Jan 31 15:34:17 CET 2023]; root of context hierarchy
+2023-01-31 15:34:17.872  INFO 14789 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:34:17.878  INFO 14789 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:34:17.879  INFO 14789 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:34:17.919  INFO 14789 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:34:17.919  INFO 14789 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 734 ms
+2023-01-31 15:34:18.040  INFO 14789 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:34:18.041  INFO 14789 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:34:18.042  INFO 14789 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:34:18.042  INFO 14789 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:34:18.042  INFO 14789 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:34:18.042  INFO 14789 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:34:18.042  INFO 14789 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:34:18.042  INFO 14789 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:34:18.061  WARN 14789 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:34:18.062  INFO 14789 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:34:18.070  INFO 14789 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:34:18.107 ERROR 14789 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:34:27.905  INFO 14805 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14805 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:34:27.907  INFO 14805 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:34:27.935  INFO 14805 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:34:27 CET 2023]; root of context hierarchy
+2023-01-31 15:34:28.598  INFO 14805 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:34:28.603  INFO 14805 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:34:28.603  INFO 14805 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:34:28.644  INFO 14805 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:34:28.644  INFO 14805 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 710 ms
+2023-01-31 15:34:28.748  INFO 14805 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:34:28.750  INFO 14805 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:34:28.750  INFO 14805 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:34:28.750  INFO 14805 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:34:28.750  INFO 14805 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:34:28.750  INFO 14805 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:34:28.750  INFO 14805 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:34:28.751  INFO 14805 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:34:28.768  WARN 14805 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setObjectPostProcessor' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor<java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:34:28.770  INFO 14805 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:34:28.779  INFO 14805 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:34:28.825 ERROR 14805 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setObjectPostProcessor in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' in your configuration.
+
+2023-01-31 15:34:31.181  INFO 14813 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14813 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:34:31.183  INFO 14813 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:34:31.211  INFO 14813 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:34:31 CET 2023]; root of context hierarchy
+2023-01-31 15:34:31.845  INFO 14813 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:34:31.850  INFO 14813 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:34:31.850  INFO 14813 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:34:31.890  INFO 14813 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:34:31.890  INFO 14813 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 681 ms
+2023-01-31 15:34:31.997  INFO 14813 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:34:31.999  INFO 14813 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:34:32.000  INFO 14813 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:34:32.000  INFO 14813 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:34:32.000  INFO 14813 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:34:32.000  INFO 14813 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:34:32.000  INFO 14813 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:34:32.000  INFO 14813 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:34:32.017  WARN 14813 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:34:32.019  INFO 14813 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:34:32.028  INFO 14813 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:34:32.073 ERROR 14813 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:35:20.341  INFO 14848 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14848 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:35:20.343  INFO 14848 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:35:20.374  INFO 14848 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:35:20 CET 2023]; root of context hierarchy
+2023-01-31 15:35:21.061  INFO 14848 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:35:21.065  INFO 14848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:35:21.066  INFO 14848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:35:21.108  INFO 14848 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:35:21.108  INFO 14848 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 736 ms
+2023-01-31 15:35:21.209  INFO 14848 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:35:21.212  INFO 14848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:35:21.212  INFO 14848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:35:21.212  INFO 14848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:35:21.212  INFO 14848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:35:21.212  INFO 14848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:35:21.212  INFO 14848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:35:21.212  INFO 14848 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:35:21.292  WARN 14848 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:35:21.293  INFO 14848 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:35:21.302  INFO 14848 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:35:21.341 ERROR 14848 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:35:28.713  INFO 14866 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14866 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:35:28.714  INFO 14866 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:35:28.743  INFO 14866 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:35:28 CET 2023]; root of context hierarchy
+2023-01-31 15:35:29.379  INFO 14866 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:35:29.384  INFO 14866 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:35:29.385  INFO 14866 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:35:29.433  INFO 14866 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:35:29.434  INFO 14866 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 693 ms
+2023-01-31 15:35:29.540  INFO 14866 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:35:29.542  INFO 14866 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:35:29.542  INFO 14866 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:35:29.542  INFO 14866 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:35:29.542  INFO 14866 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:35:29.542  INFO 14866 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:35:29.542  INFO 14866 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:35:29.543  INFO 14866 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:35:29.747  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/titre/{titre}]}" onto public com.example.my_movie.model.Filme com.example.my_movie.controller.FilmeController.getFilme(java.lang.String)
+2023-01-31 15:35:29.748  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/]}" onto public java.util.List<com.example.my_movie.model.Acteur> com.example.my_movie.controller.FilmeController.getActeurs()
+2023-01-31 15:35:29.748  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/nom/{nom}]}" onto public com.example.my_movie.model.Acteur com.example.my_movie.controller.FilmeController.getActeur(java.lang.String)
+2023-01-31 15:35:29.748  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/]}" onto public java.util.List<com.example.my_movie.model.Filme> com.example.my_movie.controller.FilmeController.getFilmes()
+2023-01-31 15:35:29.748  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2023-01-31 15:35:29.751  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2023-01-31 15:35:29.751  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2023-01-31 15:35:29.751  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2023-01-31 15:35:29.754  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-01-31 15:35:29.754  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-01-31 15:35:29.827  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.827  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.828  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.828  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.829  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2023-01-31 15:35:29.830  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.830  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2023-01-31 15:35:29.831  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2023-01-31 15:35:29.831  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.831  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2023-01-31 15:35:29.831  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.832  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.833  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2023-01-31 15:35:29.833  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2023-01-31 15:35:29.833  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.834  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2023-01-31 15:35:29.834  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:35:29.835  INFO 14866 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2023-01-31 15:35:29.943  INFO 14866 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:35:28 CET 2023]; root of context hierarchy
+2023-01-31 15:35:29.968  INFO 14866 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:35:29.968  INFO 14866 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:35:29.969  INFO 14866 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:35:29.987  INFO 14866 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:35:30.094  INFO 14866 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-01-31 15:35:30.101  INFO 14866 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2023-01-31 15:35:30.130  INFO 14866 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2023-01-31 15:35:30.130  INFO 14866 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-01-31 15:35:30.137  INFO 14866 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-01-31 15:35:30.142  INFO 14866 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-01-31 15:35:30.281  INFO 14866 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3002 (http)
+2023-01-31 15:35:30.284  INFO 14866 --- [main] com.example.my_movie.MyMovieApplication  : Started MyMovieApplication in 1.686 seconds (JVM running for 1.954)
+2023-01-31 15:37:30.785  INFO 14866 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:35:28 CET 2023]; root of context hierarchy
+2023-01-31 15:37:30.791  INFO 14866 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2023-01-31 15:37:30.792  INFO 14866 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2023-01-31 15:37:30.793  INFO 14866 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2023-01-31 15:37:33.020  INFO 14959 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 14959 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:37:33.021  INFO 14959 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:37:33.049  INFO 14959 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:37:33 CET 2023]; root of context hierarchy
+2023-01-31 15:37:33.691  INFO 14959 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:37:33.695  INFO 14959 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:37:33.696  INFO 14959 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:37:33.735  INFO 14959 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:37:33.735  INFO 14959 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 687 ms
+2023-01-31 15:37:33.842  INFO 14959 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:37:33.844  INFO 14959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:37:33.845  INFO 14959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:37:33.845  INFO 14959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:37:33.845  INFO 14959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:37:33.845  INFO 14959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:37:33.845  INFO 14959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:37:33.845  INFO 14959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:37:34.047  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/titre/{titre}]}" onto public com.example.my_movie.model.Filme com.example.my_movie.controller.FilmeController.getFilme(java.lang.String)
+2023-01-31 15:37:34.048  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/]}" onto public java.util.List<com.example.my_movie.model.Acteur> com.example.my_movie.controller.FilmeController.getActeurs()
+2023-01-31 15:37:34.048  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/nom/{nom}]}" onto public com.example.my_movie.model.Acteur com.example.my_movie.controller.FilmeController.getActeur(java.lang.String)
+2023-01-31 15:37:34.049  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/]}" onto public java.util.List<com.example.my_movie.model.Filme> com.example.my_movie.controller.FilmeController.getFilmes()
+2023-01-31 15:37:34.049  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2023-01-31 15:37:34.052  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2023-01-31 15:37:34.052  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2023-01-31 15:37:34.052  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2023-01-31 15:37:34.054  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-01-31 15:37:34.055  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-01-31 15:37:34.128  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2023-01-31 15:37:34.129  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.129  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.130  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.130  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.131  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2023-01-31 15:37:34.132  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.132  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2023-01-31 15:37:34.133  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.134  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2023-01-31 15:37:34.134  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2023-01-31 15:37:34.134  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.135  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.135  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.135  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2023-01-31 15:37:34.136  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:37:34.136  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2023-01-31 15:37:34.137  INFO 14959 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2023-01-31 15:37:34.244  INFO 14959 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:37:33 CET 2023]; root of context hierarchy
+2023-01-31 15:37:34.270  INFO 14959 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:37:34.270  INFO 14959 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:37:34.271  INFO 14959 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:37:34.289  INFO 14959 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:37:34.396  INFO 14959 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-01-31 15:37:34.404  INFO 14959 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2023-01-31 15:37:34.433  INFO 14959 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2023-01-31 15:37:34.433  INFO 14959 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-01-31 15:37:34.440  INFO 14959 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-01-31 15:37:34.446  INFO 14959 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-01-31 15:37:34.579  INFO 14959 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3002 (http)
+2023-01-31 15:37:34.583  INFO 14959 --- [main] com.example.my_movie.MyMovieApplication  : Started MyMovieApplication in 1.679 seconds (JVM running for 1.953)
+2023-01-31 15:38:30.644  INFO 14959 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:37:33 CET 2023]; root of context hierarchy
+2023-01-31 15:38:30.650  INFO 14959 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2023-01-31 15:38:30.654  INFO 14959 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2023-01-31 15:38:30.656  INFO 14959 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2023-01-31 15:38:33.458  INFO 15022 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15022 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:38:33.460  INFO 15022 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:38:33.488  INFO 15022 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:38:33 CET 2023]; root of context hierarchy
+2023-01-31 15:38:34.118  INFO 15022 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:38:34.123  INFO 15022 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:38:34.124  INFO 15022 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:38:34.165  INFO 15022 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:38:34.166  INFO 15022 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 679 ms
+2023-01-31 15:38:34.274  INFO 15022 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:38:34.277  INFO 15022 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:38:34.278  INFO 15022 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:38:34.278  INFO 15022 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:38:34.278  INFO 15022 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:38:34.278  INFO 15022 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:38:34.278  INFO 15022 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:38:34.278  INFO 15022 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:38:34.295  WARN 15022 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setObjectPostProcessor' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor<java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:38:34.296  INFO 15022 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:38:34.307  INFO 15022 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:38:34.351 ERROR 15022 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setObjectPostProcessor in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' in your configuration.
+
+2023-01-31 15:40:20.247  INFO 15119 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15119 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:40:20.249  INFO 15119 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:40:20.280  INFO 15119 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:40:20 CET 2023]; root of context hierarchy
+2023-01-31 15:40:20.949  INFO 15119 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:40:20.954  INFO 15119 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:40:20.954  INFO 15119 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:40:20.999  INFO 15119 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:40:21.000  INFO 15119 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 722 ms
+2023-01-31 15:40:21.105  INFO 15119 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:40:21.107  INFO 15119 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:40:21.107  INFO 15119 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:40:21.107  INFO 15119 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:40:21.107  INFO 15119 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:40:21.107  INFO 15119 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:40:21.107  INFO 15119 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:40:21.107  INFO 15119 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:40:21.127  WARN 15119 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:40:21.128  INFO 15119 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:40:21.138  INFO 15119 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:40:21.186 ERROR 15119 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:40:45.442  INFO 15138 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15138 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:40:45.444  INFO 15138 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:40:45.475  INFO 15138 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:40:45 CET 2023]; root of context hierarchy
+2023-01-31 15:40:46.159  INFO 15138 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:40:46.164  INFO 15138 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:40:46.164  INFO 15138 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:40:46.206  INFO 15138 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:40:46.207  INFO 15138 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 734 ms
+2023-01-31 15:40:46.310  INFO 15138 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:40:46.311  INFO 15138 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:40:46.312  INFO 15138 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:40:46.312  INFO 15138 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:40:46.312  INFO 15138 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:40:46.312  INFO 15138 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:40:46.312  INFO 15138 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:40:46.312  INFO 15138 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:40:46.330  WARN 15138 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:40:46.332  INFO 15138 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:40:46.342  INFO 15138 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:40:46.384 ERROR 15138 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:42:40.149  INFO 15203 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15203 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:42:40.150  INFO 15203 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:42:40.179  INFO 15203 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:42:40 CET 2023]; root of context hierarchy
+2023-01-31 15:42:40.874  INFO 15203 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:42:40.880  INFO 15203 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:42:40.880  INFO 15203 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:42:40.918  INFO 15203 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:42:40.918  INFO 15203 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 740 ms
+2023-01-31 15:42:41.017  INFO 15203 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:42:41.019  INFO 15203 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:42:41.019  INFO 15203 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:42:41.019  INFO 15203 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:42:41.019  INFO 15203 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:42:41.019  INFO 15203 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:42:41.019  INFO 15203 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:42:41.019  INFO 15203 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:42:41.038  WARN 15203 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'actuatorSecurityConfig': Unsatisfied dependency expressed through method 'setAuthenticationConfiguration' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-01-31 15:42:41.039  INFO 15203 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:42:41.049  INFO 15203 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:42:41.092 ERROR 15203 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setAuthenticationConfiguration in org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter required a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' in your configuration.
+
+2023-01-31 15:42:44.783  INFO 15210 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15210 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:42:44.784  INFO 15210 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:42:44.814  INFO 15210 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:42:44 CET 2023]; root of context hierarchy
+2023-01-31 15:42:45.459  INFO 15210 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:42:45.464  INFO 15210 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:42:45.464  INFO 15210 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:42:45.507  INFO 15210 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:42:45.507  INFO 15210 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 694 ms
+2023-01-31 15:42:45.611  INFO 15210 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:42:45.613  INFO 15210 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:42:45.613  INFO 15210 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:42:45.613  INFO 15210 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:42:45.613  INFO 15210 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:42:45.613  INFO 15210 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:42:45.613  INFO 15210 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:42:45.613  INFO 15210 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:42:45.632  WARN 15210 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'actuatorSecurityConfig': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor<?>' available
+2023-01-31 15:42:45.634  INFO 15210 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-31 15:42:45.644  INFO 15210 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2023-01-31 15:42:45.686 ERROR 15210 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.ObjectPostProcessor' in your configuration.
+
+2023-01-31 15:43:15.911  INFO 15234 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15234 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:43:15.913  INFO 15234 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:43:15.942  INFO 15234 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:43:15 CET 2023]; root of context hierarchy
+2023-01-31 15:43:16.634  INFO 15234 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:43:16.639  INFO 15234 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:43:16.640  INFO 15234 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:43:16.683  INFO 15234 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:43:16.684  INFO 15234 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 744 ms
+2023-01-31 15:43:16.786  INFO 15234 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:43:16.787  INFO 15234 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:43:16.788  INFO 15234 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:43:16.788  INFO 15234 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:43:16.788  INFO 15234 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:43:16.788  INFO 15234 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:43:16.788  INFO 15234 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:43:16.788  INFO 15234 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:43:16.983  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/titre/{titre}]}" onto public com.example.my_movie.model.Filme com.example.my_movie.controller.FilmeController.getFilme(java.lang.String)
+2023-01-31 15:43:16.984  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/]}" onto public java.util.List<com.example.my_movie.model.Acteur> com.example.my_movie.controller.FilmeController.getActeurs()
+2023-01-31 15:43:16.984  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/nom/{nom}]}" onto public com.example.my_movie.model.Acteur com.example.my_movie.controller.FilmeController.getActeur(java.lang.String)
+2023-01-31 15:43:16.984  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/]}" onto public java.util.List<com.example.my_movie.model.Filme> com.example.my_movie.controller.FilmeController.getFilmes()
+2023-01-31 15:43:16.985  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2023-01-31 15:43:16.987  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2023-01-31 15:43:16.988  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2023-01-31 15:43:16.988  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2023-01-31 15:43:16.990  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-01-31 15:43:16.990  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-01-31 15:43:17.065  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2023-01-31 15:43:17.066  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.066  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.067  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2023-01-31 15:43:17.067  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.069  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2023-01-31 15:43:17.069  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.070  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.070  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2023-01-31 15:43:17.071  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2023-01-31 15:43:17.071  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.071  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.072  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.072  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2023-01-31 15:43:17.073  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2023-01-31 15:43:17.073  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2023-01-31 15:43:17.073  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.074  INFO 15234 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:17.186  INFO 15234 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:43:15 CET 2023]; root of context hierarchy
+2023-01-31 15:43:17.213  INFO 15234 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:17.214  INFO 15234 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:17.214  INFO 15234 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:17.232  INFO 15234 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:17.341  INFO 15234 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-01-31 15:43:17.348  INFO 15234 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2023-01-31 15:43:17.387  INFO 15234 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2023-01-31 15:43:17.387  INFO 15234 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-01-31 15:43:17.394  INFO 15234 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-01-31 15:43:17.400  INFO 15234 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-01-31 15:43:17.531  INFO 15234 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3002 (http)
+2023-01-31 15:43:17.534  INFO 15234 --- [main] com.example.my_movie.MyMovieApplication  : Started MyMovieApplication in 1.75 seconds (JVM running for 2.048)
+2023-01-31 15:43:43.969  INFO 15234 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:43:15 CET 2023]; root of context hierarchy
+2023-01-31 15:43:43.971  INFO 15234 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2023-01-31 15:43:43.971  INFO 15234 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2023-01-31 15:43:43.972  INFO 15234 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2023-01-31 15:43:45.552  INFO 15282 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15282 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:43:45.554  INFO 15282 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:43:45.653  INFO 15282 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:43:45 CET 2023]; root of context hierarchy
+2023-01-31 15:43:46.405  INFO 15282 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:43:46.409  INFO 15282 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:43:46.409  INFO 15282 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:43:46.449  INFO 15282 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:43:46.449  INFO 15282 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 798 ms
+2023-01-31 15:43:46.559  INFO 15282 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:43:46.561  INFO 15282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:43:46.561  INFO 15282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:43:46.561  INFO 15282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:43:46.561  INFO 15282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:43:46.561  INFO 15282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:43:46.561  INFO 15282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:43:46.561  INFO 15282 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:43:46.813  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/titre/{titre}]}" onto public com.example.my_movie.model.Filme com.example.my_movie.controller.FilmeController.getFilme(java.lang.String)
+2023-01-31 15:43:46.814  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/]}" onto public java.util.List<com.example.my_movie.model.Acteur> com.example.my_movie.controller.FilmeController.getActeurs()
+2023-01-31 15:43:46.814  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/nom/{nom}]}" onto public com.example.my_movie.model.Acteur com.example.my_movie.controller.FilmeController.getActeur(java.lang.String)
+2023-01-31 15:43:46.814  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/]}" onto public java.util.List<com.example.my_movie.model.Filme> com.example.my_movie.controller.FilmeController.getFilmes()
+2023-01-31 15:43:46.815  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2023-01-31 15:43:46.817  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2023-01-31 15:43:46.818  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2023-01-31 15:43:46.818  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2023-01-31 15:43:46.821  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-01-31 15:43:46.821  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-01-31 15:43:46.898  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:46.898  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2023-01-31 15:43:46.899  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:46.899  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:46.900  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:46.900  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2023-01-31 15:43:46.901  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2023-01-31 15:43:46.902  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:46.902  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2023-01-31 15:43:46.902  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:46.903  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2023-01-31 15:43:46.903  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2023-01-31 15:43:46.905  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2023-01-31 15:43:46.905  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2023-01-31 15:43:46.905  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:46.906  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:46.906  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:46.906  INFO 15282 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:47.014  INFO 15282 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:43:45 CET 2023]; root of context hierarchy
+2023-01-31 15:43:47.041  INFO 15282 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:47.041  INFO 15282 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:47.041  INFO 15282 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:47.058  INFO 15282 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:47.168  INFO 15282 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-01-31 15:43:47.175  INFO 15282 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2023-01-31 15:43:47.207  INFO 15282 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2023-01-31 15:43:47.208  INFO 15282 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-01-31 15:43:47.214  INFO 15282 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-01-31 15:43:47.221  INFO 15282 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-01-31 15:43:47.352  INFO 15282 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3002 (http)
+2023-01-31 15:43:47.356  INFO 15282 --- [main] com.example.my_movie.MyMovieApplication  : Started MyMovieApplication in 1.959 seconds (JVM running for 2.264)
+2023-01-31 15:43:53.833  INFO 15282 --- [Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:43:45 CET 2023]; root of context hierarchy
+2023-01-31 15:43:53.836  INFO 15282 --- [Thread-6] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2023-01-31 15:43:53.836  INFO 15282 --- [Thread-6] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2023-01-31 15:43:53.837  INFO 15282 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2023-01-31 15:43:55.310  INFO 15302 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15302 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:43:55.313  INFO 15302 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:43:55.358  INFO 15302 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:43:55 CET 2023]; root of context hierarchy
+2023-01-31 15:43:56.034  INFO 15302 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:43:56.038  INFO 15302 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:43:56.039  INFO 15302 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:43:56.075  INFO 15302 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:43:56.075  INFO 15302 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 719 ms
+2023-01-31 15:43:56.178  INFO 15302 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:43:56.180  INFO 15302 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:43:56.181  INFO 15302 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:43:56.181  INFO 15302 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:43:56.181  INFO 15302 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:43:56.181  INFO 15302 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:43:56.181  INFO 15302 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:43:56.181  INFO 15302 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:43:56.372  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/]}" onto public java.util.List<com.example.my_movie.model.Acteur> com.example.my_movie.controller.FilmeController.getActeurs()
+2023-01-31 15:43:56.373  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/nom/{nom}]}" onto public com.example.my_movie.model.Acteur com.example.my_movie.controller.FilmeController.getActeur(java.lang.String)
+2023-01-31 15:43:56.374  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/]}" onto public java.util.List<com.example.my_movie.model.Filme> com.example.my_movie.controller.FilmeController.getFilmes()
+2023-01-31 15:43:56.374  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/titre/{titre}]}" onto public com.example.my_movie.model.Filme com.example.my_movie.controller.FilmeController.getFilme(java.lang.String)
+2023-01-31 15:43:56.374  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2023-01-31 15:43:56.377  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2023-01-31 15:43:56.377  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2023-01-31 15:43:56.378  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2023-01-31 15:43:56.380  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-01-31 15:43:56.380  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-01-31 15:43:56.454  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2023-01-31 15:43:56.455  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.455  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.456  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2023-01-31 15:43:56.456  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.457  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2023-01-31 15:43:56.457  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.458  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.459  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2023-01-31 15:43:56.459  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2023-01-31 15:43:56.459  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.460  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.460  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.461  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2023-01-31 15:43:56.462  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2023-01-31 15:43:56.462  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2023-01-31 15:43:56.462  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.462  INFO 15302 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:43:56.574  INFO 15302 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:43:55 CET 2023]; root of context hierarchy
+2023-01-31 15:43:56.600  INFO 15302 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:56.600  INFO 15302 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:56.600  INFO 15302 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:56.619  INFO 15302 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:43:56.725  INFO 15302 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-01-31 15:43:56.733  INFO 15302 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2023-01-31 15:43:56.761  INFO 15302 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2023-01-31 15:43:56.762  INFO 15302 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-01-31 15:43:56.767  INFO 15302 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-01-31 15:43:56.773  INFO 15302 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-01-31 15:43:56.913  INFO 15302 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3002 (http)
+2023-01-31 15:43:56.916  INFO 15302 --- [main] com.example.my_movie.MyMovieApplication  : Started MyMovieApplication in 1.826 seconds (JVM running for 2.121)
+2023-01-31 15:44:21.225  INFO 15302 --- [http-nio-3002-exec-6] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2023-01-31 15:44:21.226  INFO 15302 --- [http-nio-3002-exec-6] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2023-01-31 15:44:21.241  INFO 15302 --- [http-nio-3002-exec-6] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2023-01-31 15:45:56.107  INFO 15302 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:43:55 CET 2023]; root of context hierarchy
+2023-01-31 15:45:56.110  INFO 15302 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2023-01-31 15:45:56.111  INFO 15302 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2023-01-31 15:45:56.112  INFO 15302 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2023-01-31 15:45:57.468  INFO 15405 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15405 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:45:57.469  INFO 15405 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:45:57.503  INFO 15405 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:45:57 CET 2023]; root of context hierarchy
+2023-01-31 15:45:58.157  INFO 15405 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:45:58.162  INFO 15405 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:45:58.162  INFO 15405 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:45:58.204  INFO 15405 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:45:58.204  INFO 15405 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 703 ms
+2023-01-31 15:45:58.312  INFO 15405 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:45:58.313  INFO 15405 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:45:58.314  INFO 15405 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:45:58.314  INFO 15405 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:45:58.314  INFO 15405 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:45:58.314  INFO 15405 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:45:58.314  INFO 15405 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:45:58.314  INFO 15405 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:45:58.512  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/]}" onto public java.util.List<com.example.my_movie.model.Acteur> com.example.my_movie.controller.FilmeController.getActeurs()
+2023-01-31 15:45:58.513  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/nom/{nom}]}" onto public com.example.my_movie.model.Acteur com.example.my_movie.controller.FilmeController.getActeur(java.lang.String)
+2023-01-31 15:45:58.514  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/]}" onto public java.util.List<com.example.my_movie.model.Filme> com.example.my_movie.controller.FilmeController.getFilmes()
+2023-01-31 15:45:58.514  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/titre/{titre}]}" onto public com.example.my_movie.model.Filme com.example.my_movie.controller.FilmeController.getFilme(java.lang.String)
+2023-01-31 15:45:58.514  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2023-01-31 15:45:58.517  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2023-01-31 15:45:58.517  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2023-01-31 15:45:58.517  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2023-01-31 15:45:58.520  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-01-31 15:45:58.520  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-01-31 15:45:58.593  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2023-01-31 15:45:58.594  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.594  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.595  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2023-01-31 15:45:58.595  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.596  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2023-01-31 15:45:58.596  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.596  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.597  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2023-01-31 15:45:58.597  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2023-01-31 15:45:58.598  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.598  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.598  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.599  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2023-01-31 15:45:58.600  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2023-01-31 15:45:58.601  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2023-01-31 15:45:58.601  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.601  INFO 15405 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:45:58.707  INFO 15405 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:45:57 CET 2023]; root of context hierarchy
+2023-01-31 15:45:58.733  INFO 15405 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:45:58.733  INFO 15405 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:45:58.733  INFO 15405 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:45:58.751  INFO 15405 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:45:58.858  INFO 15405 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-01-31 15:45:58.866  INFO 15405 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2023-01-31 15:45:58.894  INFO 15405 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2023-01-31 15:45:58.894  INFO 15405 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-01-31 15:45:58.900  INFO 15405 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-01-31 15:45:58.905  INFO 15405 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-01-31 15:45:59.084  INFO 15405 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3002 (http)
+2023-01-31 15:45:59.093  INFO 15405 --- [main] com.example.my_movie.MyMovieApplication  : Started MyMovieApplication in 1.738 seconds (JVM running for 2.009)
+2023-01-31 15:46:03.546  INFO 15405 --- [http-nio-3002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2023-01-31 15:46:03.546  INFO 15405 --- [http-nio-3002-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2023-01-31 15:46:03.556  INFO 15405 --- [http-nio-3002-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+2023-01-31 15:46:46.532  INFO 15405 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:45:57 CET 2023]; root of context hierarchy
+2023-01-31 15:46:46.533  INFO 15405 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2023-01-31 15:46:46.534  INFO 15405 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2023-01-31 15:46:46.534  INFO 15405 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2023-01-31 15:46:47.903  INFO 15464 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15464 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:46:47.905  INFO 15464 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:46:47.940  INFO 15464 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:46:47 CET 2023]; root of context hierarchy
+2023-01-31 15:46:48.589  INFO 15464 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:46:48.594  INFO 15464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:46:48.594  INFO 15464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:46:48.637  INFO 15464 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:46:48.637  INFO 15464 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 699 ms
+2023-01-31 15:46:48.744  INFO 15464 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:46:48.746  INFO 15464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:46:48.746  INFO 15464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:46:48.746  INFO 15464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:46:48.746  INFO 15464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:46:48.746  INFO 15464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:46:48.746  INFO 15464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:46:48.746  INFO 15464 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:46:48.935  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/titre/{titre}]}" onto public com.example.my_movie.model.Filme com.example.my_movie.controller.FilmeController.getFilme(java.lang.String)
+2023-01-31 15:46:48.936  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/]}" onto public java.util.List<com.example.my_movie.model.Acteur> com.example.my_movie.controller.FilmeController.getActeurs()
+2023-01-31 15:46:48.937  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/nom/{nom}]}" onto public com.example.my_movie.model.Acteur com.example.my_movie.controller.FilmeController.getActeur(java.lang.String)
+2023-01-31 15:46:48.937  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/]}" onto public java.util.List<com.example.my_movie.model.Filme> com.example.my_movie.controller.FilmeController.getFilmes()
+2023-01-31 15:46:48.937  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2023-01-31 15:46:48.940  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2023-01-31 15:46:48.940  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2023-01-31 15:46:48.941  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2023-01-31 15:46:48.943  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-01-31 15:46:48.943  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-01-31 15:46:49.016  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2023-01-31 15:46:49.017  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.017  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.018  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2023-01-31 15:46:49.018  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.019  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2023-01-31 15:46:49.019  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.019  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.020  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2023-01-31 15:46:49.020  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2023-01-31 15:46:49.021  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.021  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.021  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.022  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2023-01-31 15:46:49.023  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2023-01-31 15:46:49.024  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2023-01-31 15:46:49.024  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.024  INFO 15464 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:46:49.137  INFO 15464 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:46:47 CET 2023]; root of context hierarchy
+2023-01-31 15:46:49.164  INFO 15464 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:46:49.164  INFO 15464 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:46:49.164  INFO 15464 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:46:49.182  INFO 15464 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:46:49.288  INFO 15464 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-01-31 15:46:49.295  INFO 15464 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2023-01-31 15:46:49.323  INFO 15464 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2023-01-31 15:46:49.324  INFO 15464 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-01-31 15:46:49.329  INFO 15464 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-01-31 15:46:49.335  INFO 15464 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-01-31 15:46:49.474  INFO 15464 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3002 (http)
+2023-01-31 15:46:49.478  INFO 15464 --- [main] com.example.my_movie.MyMovieApplication  : Started MyMovieApplication in 1.694 seconds (JVM running for 1.977)
+2023-01-31 15:46:52.528  INFO 15464 --- [http-nio-3002-exec-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2023-01-31 15:46:52.528  INFO 15464 --- [http-nio-3002-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2023-01-31 15:46:52.538  INFO 15464 --- [http-nio-3002-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+2023-01-31 15:48:44.283  INFO 15464 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:46:47 CET 2023]; root of context hierarchy
+2023-01-31 15:48:44.288  INFO 15464 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2023-01-31 15:48:44.289  INFO 15464 --- [Thread-5] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2023-01-31 15:48:44.290  INFO 15464 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2023-01-31 15:48:45.780  INFO 15561 --- [main] com.example.my_movie.MyMovieApplication  : Starting MyMovieApplication on MacBook-Pro-de-Geoffrey.local with PID 15561 (/Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie/target/classes started by geoffrey in /Users/geoffrey/Documents/Cours/Java_spring/javaspring_exam/my_movie)
+2023-01-31 15:48:45.781  INFO 15561 --- [main] com.example.my_movie.MyMovieApplication  : No active profile set, falling back to default profiles: default
+2023-01-31 15:48:45.812  INFO 15561 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:48:45 CET 2023]; root of context hierarchy
+2023-01-31 15:48:46.447  INFO 15561 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3002 (http)
+2023-01-31 15:48:46.451  INFO 15561 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-31 15:48:46.452  INFO 15561 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2023-01-31 15:48:46.497  INFO 15561 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/swagger]       : Initializing Spring embedded WebApplicationContext
+2023-01-31 15:48:46.497  INFO 15561 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 686 ms
+2023-01-31 15:48:46.603  INFO 15561 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-01-31 15:48:46.605  INFO 15561 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2023-01-31 15:48:46.605  INFO 15561 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-01-31 15:48:46.605  INFO 15561 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-01-31 15:48:46.605  INFO 15561 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-01-31 15:48:46.605  INFO 15561 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-01-31 15:48:46.605  INFO 15561 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2023-01-31 15:48:46.605  INFO 15561 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2023-01-31 15:48:46.797  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/titre/{titre}]}" onto public com.example.my_movie.model.Filme com.example.my_movie.controller.FilmeController.getFilme(java.lang.String)
+2023-01-31 15:48:46.798  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/]}" onto public java.util.List<com.example.my_movie.model.Acteur> com.example.my_movie.controller.FilmeController.getActeurs()
+2023-01-31 15:48:46.798  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/acteurs/nom/{nom}]}" onto public com.example.my_movie.model.Acteur com.example.my_movie.controller.FilmeController.getActeur(java.lang.String)
+2023-01-31 15:48:46.799  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/filmes/]}" onto public java.util.List<com.example.my_movie.model.Filme> com.example.my_movie.controller.FilmeController.getFilmes()
+2023-01-31 15:48:46.799  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2023-01-31 15:48:46.802  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2023-01-31 15:48:46.802  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2023-01-31 15:48:46.802  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2023-01-31 15:48:46.804  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-01-31 15:48:46.805  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-01-31 15:48:46.878  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.879  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2023-01-31 15:48:46.879  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.880  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2023-01-31 15:48:46.880  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.880  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.881  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2023-01-31 15:48:46.882  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.883  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2023-01-31 15:48:46.883  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.883  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2023-01-31 15:48:46.884  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2023-01-31 15:48:46.885  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2023-01-31 15:48:46.885  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.885  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.886  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2023-01-31 15:48:46.886  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.886  INFO 15561 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2023-01-31 15:48:46.992  INFO 15561 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55a1c291: startup date [Tue Jan 31 15:48:45 CET 2023]; root of context hierarchy
+2023-01-31 15:48:47.018  INFO 15561 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:48:47.018  INFO 15561 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:48:47.018  INFO 15561 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:48:47.037  INFO 15561 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-01-31 15:48:47.143  INFO 15561 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-01-31 15:48:47.150  INFO 15561 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2023-01-31 15:48:47.180  INFO 15561 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2023-01-31 15:48:47.180  INFO 15561 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-01-31 15:48:47.186  INFO 15561 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-01-31 15:48:47.192  INFO 15561 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-01-31 15:48:47.332  INFO 15561 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3002 (http)
+2023-01-31 15:48:47.336  INFO 15561 --- [main] com.example.my_movie.MyMovieApplication  : Started MyMovieApplication in 1.679 seconds (JVM running for 1.972)
